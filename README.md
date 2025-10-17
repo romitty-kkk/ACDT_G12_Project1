@@ -307,5 +307,17 @@ Rather than focusing on avoiding specific activities, this study suggests mainta
   
   
 - Canva(designing a website): https://acdtwisdom.my.canva.site/
-  
+
+
+  15. References
+Cajochen, C., et al. (2011). Evening exposure to a light-emitting diodes (LED)-backlit computer screen affects circadian physiology and cognitive performance. Journal of Applied Physiology, 110(5), 1432–1438. 
+https://journals.physiology.org/doi/full/10.1152/japplphysiol.00165.2011
+
+ Chang, A. M., Aeschbach, D., Duffy, J. F., & Czeisler, C. A. (2015). Evening use of light-emitting eReaders negatively affects sleep, circadian timing, and next-morning alertness. Proceedings of the National Academy of Sciences, 112(4), 1232–1237. 
+https://www.pnas.org/doi/full/10.1073/pnas.1418490112
+
+Siebers, A. C., et al. (2024). Adolescents’ Digital Nightlife: The Comparative Effects of Day- and Nighttime Smartphone Use on Sleep Quality. Figshare Dataset. https://uvaauas.figshare.com/articles/dataset/Dataset_belonging_to_Siebers_et_al_2024_Adolescents_digital_nightlife_The_comparative_effects_of_day-_and_nighttime_smartphone_use_on_sleep_quality/26395903
+
+Venkatesh, S., & Choudhury, S. (2024). Sleep Health and Lifestyle Data Set (Part 2) [Dataset]. Figshare.
+https://figshare.com/articles/dataset/Sleep_Health_and_Lifestyle_Data_Set_Part_2_/24803142?utm_source=chatgpt.com
 
