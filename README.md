@@ -292,7 +292,7 @@ Rather than focusing on avoiding specific activities, this study suggests mainta
   
 - pandas, numpy, statsmodels, matplotlib, seaborn, plotly
   
-- GitHub Pages for visualization publishing:
+- GitHub Pages for visualization publishing(linked with some visuals in the canva website:
 
   https://romitty-kkk.github.io/ACDT_G12_Project1/interactive_regression.html
 
