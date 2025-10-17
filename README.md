@@ -1,11 +1,16 @@
 # ACDT_G12_Project1
 
+
 ACDT Group 12 – Reassessing Digital Habits and Sleep Patterns
+
 Project Title:
+
 “Does Gaming Before Bed Really Ruin Your Sleep?”
 
 Team Members:
+
 2025089998 Seoyeon Park, 2025015950 Seoan Lee, 2025073381 Sihyun Kim, 2025036444 Shalrom Hwang, 2025032379 Jiyun Hyun
+
 
 
 
