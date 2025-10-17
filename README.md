@@ -292,8 +292,8 @@ Rather than focusing on avoiding specific activities, this study suggests mainta
   
 - pandas, numpy, statsmodels, matplotlib, seaborn, plotly
   
-- GitHub Pages for visualization publishing
+- GitHub Pages for visualization publishing: 
   
-- Canva(designing a website)
+- Canva(designing a website): https://acdtwisdom.my.canva.site/
   
 
