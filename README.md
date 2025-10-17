@@ -16,13 +16,15 @@ Team Members:
 
 1. Research Question:
 
+Modern society assumes that “using a smartphone before bed, especially for gaming, harms sleep.”
+
 1️⃣ Does pre-bed gaming reduce total sleep duration?
 
 2️⃣ Does gaming negatively affect sleep quality (PSQI)?
 
 3️⃣ Do sleep quantity and quality actually have a positive correlation?
 
-We tested the conventional belief that “smartphone gaming before bed ruins your sleep” through data-driven statistical analysis.
+We tested the conventional belief that “smartphone gaming before bed ruins your sleep” through data-driven statistical analysis. 
 
 
 
@@ -32,6 +34,7 @@ We tested the conventional belief that “smartphone gaming before bed ruins you
 Modern media often suggests that blue light and cognitive arousal from smartphone use, especially gaming, lead to poor sleep.
 However, our preliminary study found no significant relationship between total phone-use time and sleep quality.
 Hence, this project investigates whether app type (game, social, video, phone) and time of use (daytime, prebed, postbed) have differentiated effects.
+
 
 
 
@@ -83,19 +86,19 @@ Hence, this project investigates whether app type (game, social, video, phone) a
 
 5. Analysis Design
 
-Step	Model Type	Purpose	Variables
+Step	Model Type	/ Purpose	/Variables
 
-①	Simple Linear Regression	Test direct relationship	Gaming → Sleep Time
+①	Simple Linear Regression	/Test direct relationship	/Gaming → Sleep Time
 
-②	Polynomial Regression	Detect nonlinear patterns	Gaming + Gaming² → Sleep
+②	Polynomial Regression /	Detect nonlinear patterns	/Gaming + Gaming² → Sleep
 
-③	Group Comparison	T-test: High vs Low gamers	Prebed gaming median split
+③	Group Comparison /	T-test: High vs Low gamers	/Prebed gaming median split
 
-④	Mediation Model	Indirect effect via bedtime	Gaming → Bedtime → Sleep
+④	Mediation Model	/ Indirect effect via bedtime	/Gaming → Bedtime → Sleep
 
-⑤	Multiple Regression	Compare app types	Game, Social, Video, Phone
+⑤	Multiple Regression	/ Compare app types	/Game, Social, Video, Phone
 
-⑥	Time-Based Regression	Compare daytime/pre/post-bed	Daytime, Prebed, Postbed
+⑥	Time-Based Regression /	Compare daytime/pre, post-bed	/Daytime, Prebed, Postbed
 
 
 
@@ -176,22 +179,73 @@ Explore our interactive regression and coefficient visualizations:
 
 8. Key Findings
 
-Variable	β	p-value	Effect
+Variable	/ β	/ p-value	/ Effect
 
-Game (prebed)	–0.436	0.028	Small negative
+Game/ (prebed)/	–0.436	0.028	/Small negative
 
-Social	–0.773	<0.001	Strong negative
+Social	/–0.773 /	<0.001	/Strong negative
 
-Video	+0.085	0.403	Not significant
+Video	/ +0.085	/ 0.403	/Not significant
 
-Daytime	–3.104	<0.001	Strong negative
+Daytime	/ –3.104	/ <0.001	/Strong negative
 
-Postbed	+3.120	<0.001	Measurement artifact
-
-
+Postbed	/+3.120	/<0.001	/Measurement artifact
 
 
-9. Main Conclusions
+9. System Map Comparison
+
+- Map A — Statistical Model (Empirical):
+
+From the regression model 
+
+Gaming before bed: β = –0.48, p = 0.605 (not significant)
+
+Daytime use: β = –12.01, p = 0.009 (significant)
+
+Post-bed use: β = +12.07, p = 0.009 (ambiguous direction)
+
+Interpretation:
+
+Longer gaming before bed does not clearly reduce sleep time.
+Instead, daily smartphone overuse—especially during the day—has a stronger negative effect on total sleep.
+
+   
+- Map B — Theoretical Model (Conceptual):
+   
+   Explains why weak statistical links may still represent hidden causal loops
+
+Daytime fatigue → late-night use → shorter sleep → more fatigue → repetition
+
+Psychological & physiological factors (stress, caffeine, blue light) amplify imbalance
+
+Core Insight:
+
+Poor sleep arises from digital rhythm imbalance, not from a single behavior like gaming.
+
+
+- Justification: Bridges the gap between quantitative evidence and theoretical reasoning:
+
+Non-significant factors can still co-create meaningful emergent effects.
+
+Sleep disruption is best understood as a system-level imbalance, not a single cause.
+
+Combining Maps A + B yields a holistic model of Digital Rhythm Management, aligning data analysis with behavioral design for healthier technology use.
+     
+
+10. Executive Summary
+Gaming before bed → no significant impact (p > 0.5)
+
+Daytime smartphone use → strongest negative predictor of sleep (p = 0.001)
+
+SNS & video → mild negative effects (p = 0.02–0.03)
+
+Sleep duration ↔ quality → strong positive correlation (r = 0.68, p < 0.001)
+
+“Contrary to common belief, nighttime gaming does not significantly shorten or worsen sleep.
+Daytime overuse and emotional stimulation from social and video apps are stronger risk factors.”
+
+  
+11. Main Conclusions
 
 1️⃣ Pre-bed gaming does not significantly reduce sleep time.
 
@@ -204,7 +258,7 @@ Postbed	+3.120	<0.001	Measurement artifact
 
 
 
-10. Reinterpreting the Conventional Wisdom
+12. Reinterpreting the Conventional Wisdom
 
 “It’s not gaming that ruins your sleep — it’s your digital rhythm imbalance.”
 
@@ -213,7 +267,7 @@ Rather than focusing on avoiding specific activities, this study suggests mainta
 
 
 
-11. Repository Contents
+13. Repository Contents
 
 - ACDT_G12_Final_code_colab.ipynb:	Full Colab notebook with all preprocessing and regression steps
   
@@ -222,11 +276,15 @@ Rather than focusing on avoiding specific activities, this study suggests mainta
 - PNG snapshots of key visualizations
   
 - README.md	This documentation
+  
+- Executive Summary
+  
+- Comparison Map(Map A, Map B, Justification)
 
 
 
   
-12. Tools Used
+14. Tools Used
 
 - Python 3.10
   
@@ -236,6 +294,6 @@ Rather than focusing on avoiding specific activities, this study suggests mainta
   
 - GitHub Pages for visualization publishing
   
-- Canva(interactive website)
+- Canva(designing a website)
   
 
