@@ -309,7 +309,7 @@ Rather than focusing on avoiding specific activities, this study suggests mainta
 - Canva(designing a website): https://acdtwisdom.my.canva.site/
 
 
-  15. References
+15. References
 Cajochen, C., et al. (2011). Evening exposure to a light-emitting diodes (LED)-backlit computer screen affects circadian physiology and cognitive performance. Journal of Applied Physiology, 110(5), 1432–1438. 
 https://journals.physiology.org/doi/full/10.1152/japplphysiol.00165.2011
 
