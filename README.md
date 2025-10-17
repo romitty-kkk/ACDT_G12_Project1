@@ -20,11 +20,15 @@ Team Members:
 We tested the conventional belief that “smartphone gaming before bed ruins your sleep” through data-driven statistical analysis.
 
 
+
+
 2. Background: Challenging the Conventional Wisdom
 
 Modern media often suggests that blue light and cognitive arousal from smartphone use, especially gaming, lead to poor sleep.
 However, our preliminary study found no significant relationship between total phone-use time and sleep quality.
 Hence, this project investigates whether app type (game, social, video, phone) and time of use (daytime, prebed, postbed) have differentiated effects.
+
+
 
 
 3. Dataset Overview
@@ -39,6 +43,8 @@ Hence, this project investigates whether app type (game, social, video, phone) a
   
 - phone.csv :	General daily and post-bed phone usage
   
+
+
 
 4. Data Preprocessing Pipeline
 
@@ -68,6 +74,8 @@ Hence, this project investigates whether app type (game, social, video, phone) a
     -Aggregate by user average (groupby.mean()).
   
 
+
+
 5. Analysis Design
 
 Step	Model Type	Purpose	Variables
@@ -83,6 +91,8 @@ Step	Model Type	Purpose	Variables
 ⑤	Multiple Regression	Compare app types	Game, Social, Video, Phone
 
 ⑥	Time-Based Regression	Compare daytime/pre/post-bed	Daytime, Prebed, Postbed
+
+
 
 
 6. Visualizations
@@ -139,6 +149,8 @@ No significant indirect or direct paths (β = 0.10, 0.44, –0.43)
 Social & Game show weak negative r, Daytime & Postbed patterns visible.
 
 
+
+
 7. Interactive Results:
 
 Explore our interactive regression and coefficient visualizations:
@@ -155,6 +167,8 @@ Explore our interactive regression and coefficient visualizations:
 
   
 
+
+
 8. Key Findings
 
 Variable	β	p-value	Effect
@@ -170,6 +184,8 @@ Daytime	–3.104	<0.001	Strong negative
 Postbed	+3.120	<0.001	Measurement artifact
 
 
+
+
 9. Main Conclusions
 
 1️⃣ Pre-bed gaming does not significantly reduce sleep time.
@@ -181,11 +197,15 @@ Postbed	+3.120	<0.001	Measurement artifact
 4️⃣ Game use before bed has minimal physiological or behavioral impact.
 
 
+
+
 10. Reinterpreting the Conventional Wisdom
 
 “It’s not gaming that ruins your sleep — it’s your digital rhythm imbalance.”
 
 Rather than focusing on avoiding specific activities, this study suggests maintaining balance and self-regulation across the day’s device use as the key to digital well-being.
+
+
 
 
 11. Repository Contents
@@ -197,6 +217,8 @@ Rather than focusing on avoiding specific activities, this study suggests mainta
 - PNG snapshots of key visualizations
   
 - README.md	This documentation
+
+
 
   
 12. Tools Used
