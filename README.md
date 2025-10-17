@@ -288,11 +288,23 @@ Rather than focusing on avoiding specific activities, this study suggests mainta
 
 - Python 3.10
   
-- Google Colab
+- Google Colab: https://colab.research.google.com/drive/1T0EMPRtct5LPpnR2JmU1FcO7xIh8e9Bn#scrollTo=3ihuyXTDpNsM
   
 - pandas, numpy, statsmodels, matplotlib, seaborn, plotly
   
-- GitHub Pages for visualization publishing: 
+- GitHub Pages for visualization publishing:
+
+  https://romitty-kkk.github.io/ACDT_G12_Project1/interactive_regression.html
+
+  https://romitty-kkk.github.io/ACDT_G12_Project1/interactive_polynomial.html
+
+  https://romitty-kkk.github.io/ACDT_G12_Project1/interactive_group.html
+
+  https://romitty-kkk.github.io/ACDT_G12_Project1/Coeff.html
+
+  https://romitty-kkk.github.io/ACDT_G12_Project1/Heatmap_2D.html
+
+  
   
 - Canva(designing a website): https://acdtwisdom.my.canva.site/
   
